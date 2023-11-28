@@ -7,6 +7,8 @@ public class MedicalDisplayPanel extends JPanel {
     private Patient patient1;
 
     public MedicalDisplayPanel(Patient patient1) {
+
+
         this.patient1 = patient1;
 
 

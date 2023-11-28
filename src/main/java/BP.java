@@ -8,6 +8,7 @@ public class BP extends MedSys{
     private String VST;
     private LocalDate dateExam;
 
+    // Constructing the BP Function
     public BP(int SPressure, int DPressure, String VST, LocalDate dateExam){
         super(dateExam);
         this.SPressure = SPressure;
@@ -16,6 +17,7 @@ public class BP extends MedSys{
         this.dateExam = dateExam;
     }
 
+    // Getters for Code Security
     public int getSPressure(){
         return SPressure;
     }

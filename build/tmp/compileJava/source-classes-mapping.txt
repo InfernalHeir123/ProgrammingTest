@@ -1,7 +1,7 @@
+Patient.java
+ Patient
 MedSys.java
  MedSys
-main.java
- main
 MedicalDisplayPanel.java
  MedicalDisplayPanel
 PatientGroup.java
@@ -11,5 +11,5 @@ MRI.java
  MRI
 BP.java
  BP
-Patient.java
- Patient
+main.java
+ main

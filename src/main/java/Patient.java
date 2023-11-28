@@ -5,6 +5,7 @@ public class Patient {
     private MRI patMRI;
     private BP patBP;
 
+    // Constructing Patient
     public Patient(String patName, String patURL, int patAge, MRI patMRI, BP patBP){
         this.patName = patName;
         this.patURL = patURL;

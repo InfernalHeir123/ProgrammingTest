@@ -122,6 +122,7 @@ public class PatientGroup {
         this.patGroup = patGroup;
     }
 
+    // Admin Display Shows the display of different patiends for Admin
     public void AdminDisplay(){
         for(int i = 0; i < patGroup.size(); i++){
             System.out.println("Patient: " + patGroup.get(i).getPatName() + " MRI: " +
